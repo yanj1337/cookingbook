@@ -28,7 +28,7 @@ function onNavButtonClick(item) {
 
 document.querySelector(".nav-button").click();
 
-// Slider
+// Slider12
 
 document.addEventListener(
   "DOMContentLoaded",
