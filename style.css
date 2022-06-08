@@ -250,6 +250,11 @@ p {
   font-size: 26px;
 }
 
+.swiper {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/promo-sk5-bg.png);
+}
+
 .swiper-image {
   text-align: center;
 }
