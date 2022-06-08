@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
     <link rel="icon" type="image/x-icon" href="/p55555_150х150.png" />
   </head>
 
@@ -177,7 +183,7 @@
           </div>
         </div>
 
-        <div class="slider">
+        <!-- <div class="slider">
           <div class="slider-container">
             <div class="slider-track">
               <div class="slider-item"><img src="/Borsch-1-199.jpg" /></div>
@@ -206,7 +212,41 @@
             <button class="btn-prev">Prev</button>
             <button class="btn-next">Next</button>
           </div>
+        </div> -->
+
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="swiper-image">
+                <img src="/primerkotleti6.png" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-image">
+                <img src="/dliaborsha.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-image">
+                <img src="/Borsch-1-199.jpg" alt="" />
+              </div>
+            </div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
         </div>
+
         <div class="install">
           <div class="container">
             <div class="install-wrapper">
@@ -268,6 +308,7 @@
       </div>
     </main>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

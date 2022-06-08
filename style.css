@@ -250,7 +250,11 @@ p {
   font-size: 26px;
 }
 
-.slider {
+.swiper-image {
+  text-align: center;
+}
+
+/* .slider {
   position: relative;
   display: flex;
   align-items: center;
@@ -285,7 +289,7 @@ p {
   bottom: 0;
   right: 0;
   left: 0;
-}
+} */
 
 /* .btn-next {
 }
