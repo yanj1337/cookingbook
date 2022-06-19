@@ -250,13 +250,29 @@ p {
   font-size: 26px;
 }
 
-.swiper {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/promo-sk5-bg.png);
-}
-
 .swiper-image {
   text-align: center;
+}
+
+.slider {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/promo-sk5-bg.png);
+  height: 661px;
+}
+
+.swiper {
+  padding-bottom: 30px !important;
+}
+
+.swiper-button-prev::after {
+  color: #00ffff;
+}
+.swiper-button-next::after {
+  color: #00ffff;
+}
+
+span.swiper-pagination-bullet-active {
+  background-color: #00ffff;
 }
 
 /* .slider {
